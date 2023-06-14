@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+    background-color: white;
+    width: calc(100% - 50%);
+    padding-left: 10vh;
+    height: auto;
+    margin-top: calc(100% -  91% );
+   
+
+}
+
+.option{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    margin-top: 2vh;
+}
+.score__board{
+    background-color: lightgray;
+    width: calc(100% - 10vh);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+.btn__section{
+    display: flex;
+     gap: 2vh;
+    justify-content: center;
+    margin-top: 8vh;
+    margin-right: 10vh;
+   
+}
+.btn1{
+    padding: 0.5em 2em 0.5em 2em;
+    background: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn2{
+    padding: 0.5em 2em 0.5em 2em;
+    background:blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn3{
+    padding: 0.5em 2em 0.5em 2em;
+    background:red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.play__btn{
+    padding: 0.5em 5em 0.5em 5em;
+    background:green;
+    color: white;
+    border: none;
+}
+
